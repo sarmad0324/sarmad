@@ -80,7 +80,6 @@ footer a {
     color: white;
 }
           
-<style>
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -88,6 +87,7 @@ footer a {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  
 }
 
 .fa:hover {
