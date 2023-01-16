@@ -1,0 +1,90 @@
+p {
+    color: green;
+}
+
+a {
+    color: blue;
+}
+
+li {
+    list-style-type: square;
+}
+
+li em {
+    color: crimson;
+}
+
+span.special,
+em.special {
+    color: brown;
+    background-color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkgray;
+    text-decoration: darkred;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    border: 1px solid cadetblue;
+    width: 300px;
+    text-align: center;
+
+
+    padding: 220px 30px 20px 30px;
+
+    float: left;
+}
+
+form {
+    border: 1px solid cadetblue;
+    padding: 5px 5px;
+}
+
+.xy {
+    display: block;
+    padding-top: 150px;
+    float: left;
+}
+
+.abc {
+    width: 100%;
+}
+
+.abc input[type=email],
+input[type=password] {
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 7px;
+    padding-top: 7px
+}
+
+.abc input[type=submit] {
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.abc a {
+    text-decoration: none
+}
+
+/*@media all and (min-width:460px) and (max-width:870px){
+      .wrap{
+      border: 1px solid cadetblue;
+      border-width: 100%;
+      padding: 40px 20px 10px 20px;
+      text-align: center;
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }*/
